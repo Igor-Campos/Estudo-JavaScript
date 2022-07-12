@@ -1,3 +1,26 @@
+/*
+
+7 tipos de dados
+Todos são primitivos exceto os objetos.
+
+let nome = "Igor"; -> String
+let idade = 27; -> Number
+let possuiFaculdade = true; -> Boolean
+let time; -> Undefined
+let comida = null; -> Null
+let simbolo = Symbol() -> Symbol
+let novoObjeto = {} -> Object
+
+Primitivos são dados imutáveis.
+---------------------------------------------------------------------------------------------------------------------------------------- 
+Verificar tipo de Dado
+
+let nome = "Igor";
+console.log(typeof nome);
+retorna string
+
+*/
+
 let idade = 27;
 let simbolo = Symbol();
 console.log(typeof simbolo);
